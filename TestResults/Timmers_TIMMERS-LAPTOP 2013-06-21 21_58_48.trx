@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f0d96e6c-056e-4959-b691-dced560d116a" name="Timmers@TIMMERS-LAPTOP 2013-06-21 21:58:48" runUser="TIMMERS-LAPTOP\Timmers" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="caa7cfa2-2fe4-4cd6-bab2-e306a3b12c36">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Timmers_TIMMERS-LAPTOP 2013-06-21 21_58_48">
+      <DeploymentItem filename="C:\Users\Timmers\Dropbox\Professional Portfolio\Software\Prioqueues\PrioQueues\bin\Debug\PrioQueues.exe" />
+      <DeploymentItem filename="C:\Users\Timmers\Dropbox\Professional Portfolio\Software\Prioqueues\packages\MathNet.Numerics.2.3.0\lib\net40\MathNet.Numerics.IO.dll" />
+      <DeploymentItem filename="C:\Users\Timmers\Dropbox\Professional Portfolio\Software\Prioqueues\PrioQueues\Random\Troschuetz.Random.dll" />
+      <DeploymentItem filename="C:\Users\Timmers\Dropbox\Professional Portfolio\Software\Prioqueues\packages\zlib.net.1.0.4.0\lib\zlib.net.dll" />
+      <DeploymentItem filename="C:\Users\Timmers\Dropbox\Professional Portfolio\Software\Prioqueues\packages\MathNet.Numerics.2.3.0\lib\net40\MathNet.Numerics.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-21T21:58:48.6415366-07:00" queuing="2013-06-21T21:58:48.6735384-07:00" start="2013-06-21T21:58:48.6905394-07:00" finish="2013-06-21T21:58:49.1335647-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="updateWorkersTest" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="315e49fc-fef2-11fa-7c44-e0e32c0bcbbc">
+      <Execution id="7607d948-8953-4ae9-9f86-a54b1a0ae611" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.QueueSystemTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="updateWorkersTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="315e49fc-fef2-11fa-7c44-e0e32c0bcbbc" executionId="7607d948-8953-4ae9-9f86-a54b1a0ae611" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7607d948-8953-4ae9-9f86-a54b1a0ae611" testId="315e49fc-fef2-11fa-7c44-e0e32c0bcbbc" testName="updateWorkersTest" computerName="TIMMERS-LAPTOP" duration="00:00:00.0847532" startTime="2013-06-21T21:58:48.7245413-07:00" endTime="2013-06-21T21:58:49.0925624-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7607d948-8953-4ae9-9f86-a54b1a0ae611">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="10e08d82-32ad-4114-903c-5c30204bcc00" name="Timmers@TIMMERS-LAPTOP 2013-06-23 13:43:56" runUser="TIMMERS-LAPTOP\Timmers" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="caa7cfa2-2fe4-4cd6-bab2-e306a3b12c36">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Timmers_TIMMERS-LAPTOP 2013-06-23 13_43_56">
+      <DeploymentItem filename="C:\Users\Timmers\Dropbox\Professional Portfolio\Software\Prioqueues\PrioQueues\bin\Debug\PrioQueues.exe" />
+      <DeploymentItem filename="C:\Users\Timmers\Dropbox\Professional Portfolio\Software\Prioqueues\packages\MathNet.Numerics.2.3.0\lib\net40\MathNet.Numerics.IO.dll" />
+      <DeploymentItem filename="C:\Users\Timmers\Dropbox\Professional Portfolio\Software\Prioqueues\PrioQueues\Random\Troschuetz.Random.dll" />
+      <DeploymentItem filename="C:\Users\Timmers\Dropbox\Professional Portfolio\Software\Prioqueues\packages\zlib.net.1.0.4.0\lib\zlib.net.dll" />
+      <DeploymentItem filename="C:\Users\Timmers\Dropbox\Professional Portfolio\Software\Prioqueues\packages\MathNet.Numerics.2.3.0\lib\net40\MathNet.Numerics.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-23T13:43:56.3864349-07:00" queuing="2013-06-23T13:43:56.4234370-07:00" start="2013-06-23T13:43:56.4834404-07:00" finish="2013-06-23T13:43:57.6385065-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="16" executed="16" passed="16" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="singleRunTest" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="cd4817c1-4da5-f548-6d03-38fda72a96d0">
+      <Execution id="c4c32daf-f417-41bd-96a1-b492ca484b02" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.QueueSystemTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="singleRunTest" />
+    </UnitTest>
+    <UnitTest name="QueueSystemConstructorTest" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="43b861f7-4cdc-c2b6-657d-efc886263bbb">
+      <Execution id="419a79b6-5156-4eb6-8486-a5655dfd961c" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.QueueSystemTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QueueSystemConstructorTest" />
+    </UnitTest>
+    <UnitTest name="singleRunPrioTest" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="a6abc871-0a3a-ce1a-65e0-a7f0d863c4ff">
+      <Execution id="4a28f515-ed4e-4c7a-b55e-1aa13f80de43" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.QueueSystemTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="singleRunPrioTest" />
+    </UnitTest>
+    <UnitTest name="QueueSystemConstructorTest1" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="e039df52-6335-5969-b712-0a68e98c2468">
+      <Execution id="dbeeb3c3-879e-4553-9927-a09f02934c59" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.QueueSystemTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QueueSystemConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="ArrTimeTest" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="680592ea-700c-932d-6412-71e834013bfc">
+      <Execution id="ea30f1fd-380e-42da-9617-18b90408c105" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.JobTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ArrTimeTest" />
+    </UnitTest>
+    <UnitTest name="WorkerConstructorTest" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="b7e20414-6645-787d-f1b5-3c21931070e7">
+      <Execution id="2cbabb0b-30a3-4228-b4ca-19e47dcb47d5" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.WorkerTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="JobConstructorTest1" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="56d8c290-bba9-6e89-0b61-9b6bd0f44f18">
+      <Execution id="71da2b93-9d15-485b-88e4-d8a14ff1a8c6" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.JobTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="JobConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="updateWorkersTest" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="315e49fc-fef2-11fa-7c44-e0e32c0bcbbc">
+      <Execution id="f2a67ae1-9265-431e-a90e-065ab87e0215" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.QueueSystemTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="updateWorkersTest" />
+    </UnitTest>
+    <UnitTest name="ProcTimeTest" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="962568b6-90b6-3008-c3b4-1131b4efb573">
+      <Execution id="c1e08f83-0bda-4c73-a867-8fee155dfba3" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.JobTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProcTimeTest" />
+    </UnitTest>
+    <UnitTest name="JobTypeTest" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="1726b410-3ea5-ed3b-5ff3-d7b0acc15e26">
+      <Execution id="7dd80e67-de40-43c2-9502-4715cc429d6d" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.JobTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="JobTypeTest" />
+    </UnitTest>
+    <UnitTest name="EndTimeTest" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="265ef445-58d1-dd78-8dd4-ece7c19a611f">
+      <Execution id="d7cf0eb1-056b-43cf-acc2-f18c286da346" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.WorkerTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EndTimeTest" />
+    </UnitTest>
+    <UnitTest name="CreateRQueueTest" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="12fa0346-0f2d-cb90-b441-346c05ae5b9a">
+      <Execution id="5789cf4b-08f4-47f1-b4c8-49aae68b9e7a" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.QueueSystemTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateRQueueTest" />
+    </UnitTest>
+    <UnitTest name="resetDataTest" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="28722a11-0e7b-f881-7a1f-e53dd096f925">
+      <Execution id="dee6455e-2406-479a-bc26-6ec77997d2a5" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.QueueSystemTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="resetDataTest" />
+    </UnitTest>
+    <UnitTest name="JobConstructorTest" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="4c807dbd-3442-4ce2-c6d1-7bf0a017e62e">
+      <Execution id="020a389c-f843-45f3-85cf-66bf5ff397b4" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.JobTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="JobConstructorTest" />
+    </UnitTest>
+    <UnitTest name="addJobsTest" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="41d76c42-c246-4973-61cc-36cee4411eb1">
+      <Execution id="89ec3999-b1e8-4317-9544-563a74ba94ff" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.QueueSystemTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="addJobsTest" />
+    </UnitTest>
+    <UnitTest name="generateJobTest" storage="c:\users\timmers\dropbox\professional portfolio\software\prioqueues\testprioqueues\bin\debug\testprioqueues.dll" id="e6b50e11-0615-533e-24b2-76dce757cdfd">
+      <Execution id="5bd41f18-bcc1-4bbf-9750-f03743e2be56" />
+      <TestMethod codeBase="C:/Users/Timmers/Dropbox/Professional Portfolio/Software/Prioqueues/TestPrioQueues/bin/Debug/TestPrioQueues.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestPrioQueues.QueueSystemTest, TestPrioQueues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="generateJobTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="41d76c42-c246-4973-61cc-36cee4411eb1" executionId="89ec3999-b1e8-4317-9544-563a74ba94ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="680592ea-700c-932d-6412-71e834013bfc" executionId="ea30f1fd-380e-42da-9617-18b90408c105" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12fa0346-0f2d-cb90-b441-346c05ae5b9a" executionId="5789cf4b-08f4-47f1-b4c8-49aae68b9e7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="265ef445-58d1-dd78-8dd4-ece7c19a611f" executionId="d7cf0eb1-056b-43cf-acc2-f18c286da346" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6b50e11-0615-533e-24b2-76dce757cdfd" executionId="5bd41f18-bcc1-4bbf-9750-f03743e2be56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c807dbd-3442-4ce2-c6d1-7bf0a017e62e" executionId="020a389c-f843-45f3-85cf-66bf5ff397b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56d8c290-bba9-6e89-0b61-9b6bd0f44f18" executionId="71da2b93-9d15-485b-88e4-d8a14ff1a8c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1726b410-3ea5-ed3b-5ff3-d7b0acc15e26" executionId="7dd80e67-de40-43c2-9502-4715cc429d6d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="962568b6-90b6-3008-c3b4-1131b4efb573" executionId="c1e08f83-0bda-4c73-a867-8fee155dfba3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43b861f7-4cdc-c2b6-657d-efc886263bbb" executionId="419a79b6-5156-4eb6-8486-a5655dfd961c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e039df52-6335-5969-b712-0a68e98c2468" executionId="dbeeb3c3-879e-4553-9927-a09f02934c59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28722a11-0e7b-f881-7a1f-e53dd096f925" executionId="dee6455e-2406-479a-bc26-6ec77997d2a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6abc871-0a3a-ce1a-65e0-a7f0d863c4ff" executionId="4a28f515-ed4e-4c7a-b55e-1aa13f80de43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd4817c1-4da5-f548-6d03-38fda72a96d0" executionId="c4c32daf-f417-41bd-96a1-b492ca484b02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="315e49fc-fef2-11fa-7c44-e0e32c0bcbbc" executionId="f2a67ae1-9265-431e-a90e-065ab87e0215" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7e20414-6645-787d-f1b5-3c21931070e7" executionId="2cbabb0b-30a3-4228-b4ca-19e47dcb47d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="89ec3999-b1e8-4317-9544-563a74ba94ff" testId="41d76c42-c246-4973-61cc-36cee4411eb1" testName="addJobsTest" computerName="TIMMERS-LAPTOP" duration="00:00:00.0376475" startTime="2013-06-23T13:43:56.5424438-07:00" endTime="2013-06-23T13:43:56.8974641-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89ec3999-b1e8-4317-9544-563a74ba94ff">
+    </UnitTestResult>
+    <UnitTestResult executionId="ea30f1fd-380e-42da-9617-18b90408c105" testId="680592ea-700c-932d-6412-71e834013bfc" testName="ArrTimeTest" computerName="TIMMERS-LAPTOP" duration="00:00:00.0010460" startTime="2013-06-23T13:43:56.9024644-07:00" endTime="2013-06-23T13:43:56.9214655-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea30f1fd-380e-42da-9617-18b90408c105">
+    </UnitTestResult>
+    <UnitTestResult executionId="5789cf4b-08f4-47f1-b4c8-49aae68b9e7a" testId="12fa0346-0f2d-cb90-b441-346c05ae5b9a" testName="CreateRQueueTest" computerName="TIMMERS-LAPTOP" duration="00:00:00.0020946" startTime="2013-06-23T13:43:56.9404666-07:00" endTime="2013-06-23T13:43:56.9574675-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5789cf4b-08f4-47f1-b4c8-49aae68b9e7a">
+    </UnitTestResult>
+    <UnitTestResult executionId="d7cf0eb1-056b-43cf-acc2-f18c286da346" testId="265ef445-58d1-dd78-8dd4-ece7c19a611f" testName="EndTimeTest" computerName="TIMMERS-LAPTOP" duration="00:00:00.0068491" startTime="2013-06-23T13:43:56.9954697-07:00" endTime="2013-06-23T13:43:57.0144708-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7cf0eb1-056b-43cf-acc2-f18c286da346">
+    </UnitTestResult>
+    <UnitTestResult executionId="5bd41f18-bcc1-4bbf-9750-f03743e2be56" testId="e6b50e11-0615-533e-24b2-76dce757cdfd" testName="generateJobTest" computerName="TIMMERS-LAPTOP" duration="00:00:00.0030698" startTime="2013-06-23T13:43:57.0364720-07:00" endTime="2013-06-23T13:43:57.0554731-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bd41f18-bcc1-4bbf-9750-f03743e2be56">
+    </UnitTestResult>
+    <UnitTestResult executionId="020a389c-f843-45f3-85cf-66bf5ff397b4" testId="4c807dbd-3442-4ce2-c6d1-7bf0a017e62e" testName="JobConstructorTest" computerName="TIMMERS-LAPTOP" duration="00:00:00.0011913" startTime="2013-06-23T13:43:57.0684739-07:00" endTime="2013-06-23T13:43:57.0814746-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="020a389c-f843-45f3-85cf-66bf5ff397b4">
+    </UnitTestResult>
+    <UnitTestResult executionId="71da2b93-9d15-485b-88e4-d8a14ff1a8c6" testId="56d8c290-bba9-6e89-0b61-9b6bd0f44f18" testName="JobConstructorTest1" computerName="TIMMERS-LAPTOP" duration="00:00:00.0003659" startTime="2013-06-23T13:43:57.1014758-07:00" endTime="2013-06-23T13:43:57.1134764-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71da2b93-9d15-485b-88e4-d8a14ff1a8c6">
+    </UnitTestResult>
+    <UnitTestResult executionId="7dd80e67-de40-43c2-9502-4715cc429d6d" testId="1726b410-3ea5-ed3b-5ff3-d7b0acc15e26" testName="JobTypeTest" computerName="TIMMERS-LAPTOP" duration="00:00:00.0013647" startTime="2013-06-23T13:43:57.1174767-07:00" endTime="2013-06-23T13:43:57.1334776-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7dd80e67-de40-43c2-9502-4715cc429d6d">
+    </UnitTestResult>
+    <UnitTestResult executionId="c1e08f83-0bda-4c73-a867-8fee155dfba3" testId="962568b6-90b6-3008-c3b4-1131b4efb573" testName="ProcTimeTest" computerName="TIMMERS-LAPTOP" duration="00:00:00.0008376" startTime="2013-06-23T13:43:57.1404780-07:00" endTime="2013-06-23T13:43:57.1524787-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1e08f83-0bda-4c73-a867-8fee155dfba3">
+    </UnitTestResult>
+    <UnitTestResult executionId="419a79b6-5156-4eb6-8486-a5655dfd961c" testId="43b861f7-4cdc-c2b6-657d-efc886263bbb" testName="QueueSystemConstructorTest" computerName="TIMMERS-LAPTOP" duration="00:00:00.0033450" startTime="2013-06-23T13:43:57.1634793-07:00" endTime="2013-06-23T13:43:57.1824804-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="419a79b6-5156-4eb6-8486-a5655dfd961c">
+    </UnitTestResult>
+    <UnitTestResult executionId="dbeeb3c3-879e-4553-9927-a09f02934c59" testId="e039df52-6335-5969-b712-0a68e98c2468" testName="QueueSystemConstructorTest1" computerName="TIMMERS-LAPTOP" duration="00:00:00.0017856" startTime="2013-06-23T13:43:57.2074818-07:00" endTime="2013-06-23T13:43:57.2214826-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbeeb3c3-879e-4553-9927-a09f02934c59">
+    </UnitTestResult>
+    <UnitTestResult executionId="dee6455e-2406-479a-bc26-6ec77997d2a5" testId="28722a11-0e7b-f881-7a1f-e53dd096f925" testName="resetDataTest" computerName="TIMMERS-LAPTOP" duration="00:00:00.0086168" startTime="2013-06-23T13:43:57.2284830-07:00" endTime="2013-06-23T13:43:57.2474841-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dee6455e-2406-479a-bc26-6ec77997d2a5">
+    </UnitTestResult>
+    <UnitTestResult executionId="4a28f515-ed4e-4c7a-b55e-1aa13f80de43" testId="a6abc871-0a3a-ce1a-65e0-a7f0d863c4ff" testName="singleRunPrioTest" computerName="TIMMERS-LAPTOP" duration="00:00:00.0126598" startTime="2013-06-23T13:43:57.2594848-07:00" endTime="2013-06-23T13:43:57.2854863-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a28f515-ed4e-4c7a-b55e-1aa13f80de43">
+    </UnitTestResult>
+    <UnitTestResult executionId="c4c32daf-f417-41bd-96a1-b492ca484b02" testId="cd4817c1-4da5-f548-6d03-38fda72a96d0" testName="singleRunTest" computerName="TIMMERS-LAPTOP" duration="00:00:00.0168743" startTime="2013-06-23T13:43:57.3014872-07:00" endTime="2013-06-23T13:43:57.3294888-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4c32daf-f417-41bd-96a1-b492ca484b02">
+    </UnitTestResult>
+    <UnitTestResult executionId="f2a67ae1-9265-431e-a90e-065ab87e0215" testId="315e49fc-fef2-11fa-7c44-e0e32c0bcbbc" testName="updateWorkersTest" computerName="TIMMERS-LAPTOP" duration="00:00:00.0052204" startTime="2013-06-23T13:43:57.3414895-07:00" endTime="2013-06-23T13:43:57.3564903-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2a67ae1-9265-431e-a90e-065ab87e0215">
+    </UnitTestResult>
+    <UnitTestResult executionId="2cbabb0b-30a3-4228-b4ca-19e47dcb47d5" testId="b7e20414-6645-787d-f1b5-3c21931070e7" testName="WorkerConstructorTest" computerName="TIMMERS-LAPTOP" duration="00:00:00.0002812" startTime="2013-06-23T13:43:57.3664909-07:00" endTime="2013-06-23T13:43:57.3814918-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2cbabb0b-30a3-4228-b4ca-19e47dcb47d5">
+    </UnitTestResult>
+  </Results>
+</TestRun>
